@@ -19,10 +19,13 @@ const LandingPage = () => {
           </li>
         </nav>
       </header>
-      {/* <section class="hero">
+      <section class="hero">
         <div
           class="background-image"
-          style="background-image: url(https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c2d910abcc9bb04fcb180f6a45e407&dpr=2&auto=format&fit=crop&w=767&h=485&q=60&cs=tinysrgb);"
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c2d910abcc9bb04fcb180f6a45e407&dpr=2&auto=format&fit=crop&w=767&h=485&q=60&cs=tinysrgb)",
+          }}
         ></div>
         <div class="hero-content-area">
           <h1>Mountain Travel</h1>
@@ -31,7 +34,7 @@ const LandingPage = () => {
             Contact Us Now
           </a>
         </div>
-      </section> */}
+      </section>
 
       <section class="destinations">
         <h3 class="title">Some of our destinations:</h3>
