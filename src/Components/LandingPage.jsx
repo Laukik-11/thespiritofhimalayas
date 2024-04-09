@@ -5,7 +5,7 @@ const LandingPage = () => {
     <>
       <header>
         <h2>
-          <a href="#">Mountain Travel</a>
+          <a href="#">The Spirit Of Himalayas</a>
         </h2>
         <nav>
           <li>
@@ -28,8 +28,8 @@ const LandingPage = () => {
           }}
         ></div>
         <div class="hero-content-area">
-          <h1>Mountain Travel</h1>
-          <h3>Unmissable Adventure Tours Around The World</h3>
+          <h1>The Spirit Of Himalayas</h1>
+          <h3>Unmissable Adventure Tours Around The Uttarakhand</h3>
           <a href="#" class="btn">
             Contact Us Now
           </a>
