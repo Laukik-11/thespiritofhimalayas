@@ -1,43 +1,37 @@
 import React from 'react'
+import Logo from "../Assets/Logo.jpg";
+import "./Footer.css"
 
 const Footer = () => {
   return (
     <>
-      {/* <section className="contact">
-        <h3 className="title">Learn More</h3>
-        <p>
-          Want to learn more about our upcoming mountain-related events? Just
-          sign up for our mailing list. No spam, we promise! Only quality
-          offers, and information to keep you outdoors.
-        </p>
-        <form>
-          <input type="email" placeholder="Email" />
-          <a href="#" className="btn">
-            Subscribe Now
-          </a>
-        </form>
-      </section> */}
-      <footer>
-        <p>Images Courtesy of unsplash</p>
-        <p>2018 Mountain Adventures site</p>
-        <ul>
-          <li>
-            <a href="#">
-              <i className="fa fa-twitter-square fa-2x"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fa fa-facebook-square fa-2x"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fa fa-snapchat-square fa-2x"></i>
-            </a>
-          </li>
-        </ul>
-      </footer>
+      <div class="contact-area footer_section" id="contact">
+        <div class="container">
+            {/* <div className="row"> */}
+                {/* <div className="col-lg-6 offset-lg-3"> */}
+                    <div class="contact-content text-center">
+                        <a href="#"><img style={{ width : "120px"}} src={Logo} alt="logo"/></a>
+                        <p style={{ padding: "0px 15%"}}>Our team members are always dedicated to assist you with your queries about India destination and packages. We take care of your tour with best quality of services and customization of travel packages.</p>
+                        <div class="hr"></div>
+                        <h6>A-10 Rajpur Rd, Dehradun</h6>
+                        <h6>+01 2345 6789 12<span>|</span>+01 2345 6789 12</h6>
+                        <div class="contact-social">
+                            <ul>
+                                <li><a class="hover-target" href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fa fa-github"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fa fa-behance"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fa fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  {/* </div> */}
+              {/* </div> */}
+        </div>
+    </div>
+    {/* <footer>
+        <p>Copyright &copy; 2024 <img style={{ width: "17px"}} src={Logo} alt="logo"/> All Rights Reserved.</p>
+    </footer> */}
     </>
   );
 }
