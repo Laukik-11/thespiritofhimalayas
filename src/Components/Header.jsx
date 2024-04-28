@@ -25,17 +25,26 @@ const Header = () => {
             <p>The Spirit Of Himalayas</p>
           </Link>
         </h2>
-        <nav>
-          <li>
-            <a href="#">TOURS</a>
-          </li>
-          <li>
-            <a href="#">ABOUT</a>
-          </li>
-          <li>
-            <a href="#">CONTRACTS</a>
-          </li>
-        </nav>
+        <div style={{ display: "flex", alignItems: "center", gap: "14px" }}>
+          <nav>
+            <li>
+              <a href="#">TOURS</a>
+            </li>
+            <li>
+              <a href="#">ABOUT</a>
+            </li>
+          </nav>
+          <button
+            style={{
+              borderRadius: "8px",
+              background: "#3f51b5",
+              padding: "10px 16px",
+              color: "white",
+            }}
+          >
+            CONTACT US
+          </button>
+        </div>
       </header>
     </>
   );
