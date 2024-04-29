@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Dodham from "../Assets/Dodham.jpg";
 import Chardham from "../Assets/Chardham.jpg";
 import Badrinath from "../Assets/Badrinath.jpg";
+import Sunderdunga from "../Assets/Sunderdunga.jpg";
 import Kedarnath from "../Assets/Kedarnath.jpg";
 import Tungnath from "../Assets/Tungnath.jpg";
 
@@ -38,17 +39,16 @@ export const Tours = [
   },
 ];
 
-
 export const treks = [
   {
     id: 1,
     trekname: "Pindari",
     image: Dodham,
     description: [
-      "Chardham Yatra is a spiritual pilgrimage journey that includes visiting four holy shrines in the Himalayas — Yamunotri, Gangotri, Kedarnath, and Badrinath.",
-      " The journey is considered highly sacred by Hindus and is believed to provide spiritual upliftment and liberation from the cycle of birth and death.",
-      " If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us .",
-      "We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences.",
+      "The Pindari Glacier is a glacier found in the upper reaches of the Kumaon Himalayas, to the southeast of Nanda Devi and Nanda Kot.",
+      "The glacier is about 9 kilometers long [1] and gives rise to the Pindar River which meets the Alakananda at Karnaprayag in the Garhwal district.",
+      "The trail to reach the glacier crosses the villages of Saung, Loharkhet, crosses over the Dhakuri Pass, continues onto Khati village (the last inhabited village on the trail), Dwali, Phurkia and finally Zero Point, Pindar, the end of the trail. Though most of the trail is along the banks of the Pindari River, the river is mostly hidden until after Khati.",
+      "The Pindari Glacier trail provides for a 90 km (56 mi) round-trip trek that most people find comfortable to complete in 6 days. The Pindari Glacier is also famous for other adventure sports like Ice climbing and Mountain biking.",
     ],
   },
   {
@@ -56,17 +56,23 @@ export const treks = [
     trekname: "Kafini",
     image: Chardham,
     description: [
-      "Chardham Yatra is a spiritual pilgrimage journey that includes visiting four holy shrines in the Himalayas — Yamunotri, Gangotri, Kedarnath, and Badrinath. The journey is considered highly sacred by Hindus and is believed to provide spiritual upliftment and liberation from the cycle of birth and death. If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us .We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences",
+      "The Kafni Glacier is located in the upper reaches of the Kumaon Himalayas, to the southeast of Nanda Devi. The glacier gives rise to the Kafni River, which is a tributary of the Pindar River. The Pindar River is a tributary to Alaknanda River, which eventually is one of the two headstreams of the Ganges. This is relatively small glacier but a popular trekking destination along with Pindari Glacier",
+      "Temperature : May — June (15C to 20C and night 7C to2C) Sept — Oct (15C to 10C and night 5C to -5C).",
+      "Best Season Pre Monsoon Season:— May first week to June end and post monsoon Season:- September 2nd week to Nov first week.",
     ],
   },
   {
     id: 3,
     trekname: "Sunderdunga",
-    image: Kedarnath,
+    image: Sunderdunga,
     description: [
-      "Chardham Yatra is a spiritual pilgrimage journey that includes visiting four holy shrines in the Himalayas — Yamunotri, Gangotri, Kedarnath, and Badrinath. The journey is considered highly sacred by Hindus and is believed to provide spiritual upliftment and liberation from the cycle of birth and death.",
-      "If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us. ",
-      "We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences",
+      "Sunderdhunga Glacier is located in the Bageshwar district of Uttarakhand. Adorned with an intriguing panorama, this glacier sits close to Sukhram and Maiktoli Glacier. Sunderdhunga trek is a gripping one as it opens up to spectacular views of imposing peaks like Maiktoli, Mrigthuni, Tharkot and Panwalidwar. A paradise for nature lovers and keen photographers, Sunderdhunga Glacier is a must see natural wonder. Sunderdhunga trek is one of the best trek of uttarakhand.",
+      "Sunderdhunga Valley trek is one of the most beautiful trek in Uttrakhand. This trek used to start from Kharkiya, Jatoli used to be its first camp, The Valley of Beautiful Stones.Offering great views of Maiktoli peak, Mrigthuini, Tharkot and Panwali Dwar a very beautiful one indeed ! New Jeep road has opened up till Kharkiya which skips the campsite and saves a day. Although, if you are trekking to experience the Himalayas and its beauty, This trail follows the same route as that of the adjacent glaciers of Pindari and Kafni, before separating at the village of Khati. The trek takes you through dense forest, some of the remote villages of Kumaon and then to the ravine of the Sunderdhunga river to the beautiful campsite of Kathaliya, which then acts as your Exploratory base camp of the beautiful valley. Here you are surrounded by some of the most beautiful peaks in the region. Trek upto Maiktoli base camp and then to the Balooni top, Sukhram caves offers a spectacular view of the surrounding, something which will remain with your forever.Devi kund, is a small hike from Balooni Top If trekker knows about the place to some extent, he would know that even the name expresses the place to some extent, the magnificence of the scenery if far beyond the word ‘sunder (which means beautiful)’ and ‘dhunga’ which means ‘valley of stones’) can express together. In all its harmony, every single elements of Nature stands out to express its presence there (even fire when camps are set up).The point that goes to Pindari is from where the journey to Sunderdhunga also starts,The trek Sunderdhunga glacier is best enjoyed in the months Apr to Jun and Sep to Oct which generally takes 8 to 10 days. ",
+      "Destinations: Bageshwar, Saung, Loharkhet, Khati, Jatoli, Kathalaya, Sunderdhunga",
+      "Experience: Trekking (moderate to challenging)",
+      "Maximum Altitude: 4,320 m (Approx)",
+      "Duration: 8 days",
+      "Ideal Time: May, June, September and October",
     ],
   },
   {
@@ -74,9 +80,10 @@ export const treks = [
     trekname: "Katarmal sun temple",
     image: Kedarnath,
     description: [
-      "Chardham Yatra is a spiritual pilgrimage journey that includes visiting four holy shrines in the Himalayas — Yamunotri, Gangotri, Kedarnath, and Badrinath. The journey is considered highly sacred by Hindus and is believed to provide spiritual upliftment and liberation from the cycle of birth and death.",
-      "If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us. ",
-      "We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences",
+      "At a distance of 30 km from Dwarahat and 20 km from Almora, Katarmal Sun Temple is an ancient Hindu temple situated at Katarmal village in Almora district of Uttarakhand.Katarmal Temple is dedicated to Lord Burhadita or Vriddhaditya (the old Sun God) and is one of the famous historical places of Kumaon hills in Uttarakhand.",
+      "If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us.The present image of Surya in the temple dates back to 12th century. Built in the 9th century by Katarmalla, a Katyuri king, this temple is perched at an altitude of 2116 m.The Sun Temple is noted for its magnificent architecture and is a monument of historical importance.  The idols of Shiva-Parvati and Lakshmi-Narayana can also be spotted in this temple. The building faces the east in a way such that the first rays of the sun fall on the Shiva Lingam. Stone-built walls, intricate figures, beautiful pillar carvings and exquisitely cut out wooden doors are among the distinctive features of this temple. ",
+      "The Katarmal Surya Temple is a 9th-century temple built by Katarmalla, a Katyuri King, exhibiting the architectural style of the ancient artisans. This Hindu temple is perched at an elevation of 2,116 meters above sea level and is situated at a distance of 19 kms from Almora. ",
+      "This Surya Mandir (Sun Temple) is also known as Badaditya (Baraditya) Temple.",
     ],
   },
   {
@@ -84,9 +91,8 @@ export const treks = [
     trekname: "Dol ashram",
     image: Kedarnath,
     description: [
-      "Chardham Yatra is a spiritual pilgrimage journey that includes visiting four holy shrines in the Himalayas — Yamunotri, Gangotri, Kedarnath, and Badrinath. The journey is considered highly sacred by Hindus and is believed to provide spiritual upliftment and liberation from the cycle of birth and death.",
-      "If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us. ",
-      "We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences",
+      "Shri Kalyanika Himalaya Devasthanam, popularly known as the Dol Ashram is a peaceful ashram in the quaint village of Kanara (Dol), located in the Almora district of Uttarakhand. Dol Ashram is surrounded by dense forests and rests calmly at its center.",
+      "Dol Ashram is built for yoga and meditation purposes and the atmosphere of the ashram makes it an ideal location for practicing the elements of a spiritual life. At Dol Ashram, you can learn Vedic methodology which is an integral aspect for living a balanced and healthy life. Dol Ashram welcomes everyone who want to learn about spirituality, yoga, and meditation.",
     ],
   },
   {
@@ -109,22 +115,3 @@ export const treks = [
     ],
   },
 ];
-
-
-
-const TreksList = () => {
-  return (
-    <>
-      <h1>List of Treks</h1>
-      <ul>
-        {treks.map((trek) => (
-          <li key={trek.id}>
-            <Link to={`/trek/${trek.id}`}>{trek.name}</Link>
-          </li>
-        ))}
-      </ul>
-    </>
-  );
-};
-
-export default TreksList;

@@ -1,5 +1,5 @@
 import React from "react";
-import TreksList, { Tours, treks } from "../Components/TrekList";
+import  { Tours, treks } from "../Components/TrekList";
 import TrekCard from "../Components/TrekCard";
 import BgImage1 from "../Assets/BgImage1.jpg";
 import BgImage4 from "../Assets/BgImage4.jpg";
@@ -133,7 +133,7 @@ const LandingPage = () => {
 
       <section className="destinations">
         <h3 className="title">Some of our destinations:</h3>
-        <p>
+        <p style={{maxWidth:"1000px"}}>
           Tired of the ocean? Are the plains too plain? Come along with us on
           one of our mountain adventures. Here are some pictures from people who
           have had elevated experiences with us.
