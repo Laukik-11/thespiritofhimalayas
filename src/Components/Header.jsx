@@ -1,14 +1,22 @@
-import React, { useRef } from "react";
-import Logo from "../Assets/Logo.jpg";
+import React, { useRef, useState } from "react";
+import Logo from "../Assets/Logo_dark.svg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   const myRef = useRef(null);
-
+ const [isActive, setIsActive] = useState(false);
+ //add the active class
+ const toggleActiveClass = () => {
+   setIsActive(!isActive);
+ };
+ //clean up function to remove the active class
+ const removeActive = () => {
+   setIsActive(false);
+ };
   const executeScroll = () => myRef.current.scrollIntoView(); 
   return (
     <>
-      <header>
+      {/* <header>
         <h2>
           <Link
             to={"/"}
@@ -37,7 +45,7 @@ const Header = () => {
           <button
             style={{
               borderRadius: "8px",
-              background: "#3f51b5",
+              background: "#327D81",
               padding: "10px 16px",
               color: "white",
             }}
@@ -45,7 +53,63 @@ const Header = () => {
             CONTACT US
           </button>
         </div>
-      </header>
+      </header> */}
+      <div className="App">
+        {/* <header className="App-header"> */}
+        <nav className={"navbar"}>
+          {/* logo */}
+          <Link
+            to={"/"}
+            style={{ display: "flex", alignItems: "center", gap: "10px" }}
+          >
+            <img
+              src={Logo}
+              alt="project"
+              style={{
+                height: "60px",
+              }}
+            />
+          </Link>
+          <ul className={`navMenu ${isActive ? "active" : ""}`}>
+            <li onClick={removeActive}>
+              <a href="#home" className={"navLink"}>
+                Home
+              </a>
+            </li>
+            <li onClick={removeActive}>
+              <a href="#home" className={"navLink"}>
+                Catalog
+              </a>
+            </li>
+            <li onClick={removeActive}>
+              <a href="#home" className={"navLink"}>
+                All products
+              </a>
+            </li>
+            <li onClick={removeActive}>
+              <button
+                style={{
+                  borderRadius: "8px",
+                  background: "#327D81",
+                  padding: "10px 16px",
+                  color: "white",
+                }}
+              >
+                CONTACT US
+              </button>
+            </li>
+          </ul>
+          <div
+            className={`hamburger ${isActive ? "active" : ""}`}
+            onClick={toggleActiveClass}
+          >
+            <span className={"bar"}></span>
+            <span className={"bar"}></span>
+            <span className={"bar"}></span>
+          </div>
+        </nav>
+        {/* </header> */}
+      </div>
     </>
   );
 };

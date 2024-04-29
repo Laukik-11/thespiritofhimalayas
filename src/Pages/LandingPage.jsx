@@ -1,12 +1,17 @@
 import React from "react";
-import TreksList, { treks } from "../Components/TrekList";
+import TreksList, { Tours, treks } from "../Components/TrekList";
 import TrekCard from "../Components/TrekCard";
-import BgImage from "../Assets/BgImage2.jpg";
+import BgImage1 from "../Assets/BgImage1.jpg";
+import BgImage4 from "../Assets/BgImage4.jpg";
+import BgImage5 from "../Assets/BgImage5.jpg";
+import Carousel from "../Components/Carousel";
+import Slider from "../Components/Slider";
 
 const LandingPage = () => {
   return (
     <>
-      <section className="hero">
+      <Carousel />
+      {/* <section className="hero">
         <div
           className="background-image"
           // style={{
@@ -34,86 +39,6 @@ const LandingPage = () => {
             Contact Us Now
           </a>
         </div>
-      </section>
-      <section className="projects section" id="projects">
-        <h2 className="section__title-1">
-          <span>PROJECTS</span>
-        </h2>
-        <div className="projects__container container grid">
-          {treks.map((trek, key) => {
-            return (
-              <>
-                <TrekCard
-                  id={trek.id}
-                  imageSrc={trek.image}
-                  trekname={trek.trekname}
-                  title="Restaurant Website"
-                  subtitle="Website"
-                  description={trek.description}
-                />
-              </>
-            );
-          })}
-        </div>
-      </section>
-      <section className="projects section" id="projects">
-        <h2 className="section__title-1">
-          <span>Treks</span>
-        </h2>
-        <div className="projects__container container grid">
-          {treks.map((trek) => {
-            return (
-              <>
-                <TrekCard
-                  imageSrc={trek.image}
-                  title="Restaurant Website"
-                  subtitle="Website"
-                  description="Project that you carry out in the design and structure of the layout, showing the design at the client's request."
-                />
-              </>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* <section className="destinations">
-        <h3 className="title">Some of our destinations:</h3>
-        <p>
-          Tired of the ocean? Are the plains too plain? Come along with us on
-          one of our mountain adventures. Here are some pictures from people who
-          have had elevated experiences with us.
-        </p>
-
-        <ul className="grid">
-          <li
-            className="small"
-            style={{
-              backgroundImage:
-                "url(https://images.unsplash.com/photo-1454418447879-455f6fc7c64d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d271f82e52bcca8ce13c13382c2850c1&auto=format&fit=crop&w=1950&q=80)",
-            }}
-          ></li>
-          <li
-            className="large"
-            style={{
-              backgroundImage:
-                "url(https://images.unsplash.com/photo-1482784160316-6eb046863ece?ixlib=rb-0.3.5&s=4d11e95a31535716d145de648f6963ff&auto=format&fit=crop&w=1950&q=80)",
-            }}
-          ></li>
-          <li
-            className="large"
-            style={{
-              backgroundImage:
-                "url(https://images.unsplash.com/photo-1490682143684-14369e18dce8?ixlib=rb-0.3.5&s=686088406d96c0af9c41563807620fc1&auto=format&fit=crop&w=1950&q=80)",
-            }}
-          ></li>
-          <li
-            className="small"
-            style={{
-              backgroundImage:
-                "url(https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-0.3.5&s=b2ff98e46a093cc975556c9e95d6e182&auto=format&fit=crop&w=1950&q=80)",
-            }}
-          ></li>
-        </ul>
       </section> */}
 
       {/* <section className="packages">
@@ -161,6 +86,80 @@ const LandingPage = () => {
           </li>
         </ul>
       </section> */}
+      <Slider/>
+
+      <section className="projects section" id="projects">
+        <h2 className="section__title-1">
+          <span>TRAVEL WITH US</span>
+        </h2>
+        <div className="projects__container container grid">
+          {Tours.map((tour, key) => {
+            return (
+              <>
+                <TrekCard
+                  id={tour.id}
+                  imageSrc={tour.image}
+                  trekname={tour.trekname}
+                  title="Restaurant Website"
+                  subtitle="Website"
+                  description={tour.description}
+                />
+              </>
+            );
+          })}
+        </div>
+      </section>
+      <section className="projects section" id="projects">
+        <h2 className="section__title-1">
+          <span>TREKS WE OFFER</span>
+        </h2>
+        <div className="projects__container container grid">
+          {treks.map((trek) => {
+            return (
+              <>
+                <TrekCard
+                  id={trek.id}
+                  imageSrc={trek.image}
+                  trekname={trek.trekname}
+                  title="Restaurant Website"
+                  subtitle="Website"
+                  description={trek.description}
+                />
+              </>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="destinations">
+        <h3 className="title">Some of our destinations:</h3>
+        <p>
+          Tired of the ocean? Are the plains too plain? Come along with us on
+          one of our mountain adventures. Here are some pictures from people who
+          have had elevated experiences with us.
+        </p>
+
+        <ul className="grid">
+          <li
+            className="small"
+            style={{
+              backgroundImage: `url(${BgImage1})`,
+            }}
+          ></li>
+          <li
+            className="small"
+            style={{
+              backgroundImage: `url(${BgImage4})`,
+            }}
+          ></li>
+          <li
+            className="small"
+            style={{
+              backgroundImage: `url(${BgImage5})`,
+            }}
+          ></li>
+        </ul>
+      </section>
 
       {/* <section className="testimonials">
         <h3 className="title">Testimonials from our adventurers:</h3>
