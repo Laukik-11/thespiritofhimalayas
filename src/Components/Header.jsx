@@ -1,8 +1,12 @@
 import React, { useRef, useState } from "react";
 import Logo from "../Assets/Logo_dark.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate  } from "react-router-dom";
+// import { useHistory } from "react-router";
+
 
 const Header = () => {
+  const navigate  = useNavigate ();
+
   const myRef = useRef(null);
  const [isActive, setIsActive] = useState(false);
  //add the active class
@@ -72,7 +76,7 @@ const Header = () => {
           </Link>
           <ul className={`navMenu ${isActive ? "active" : ""}`}>
             <li onClick={removeActive}>
-              <a href="#home" className={"navLink"}>
+              <a href="/" className={"navLink"}>
                 home
               </a>
             </li>
@@ -86,13 +90,15 @@ const Header = () => {
                 TREKS
               </a>
             </li>
-            <li onClick={removeActive}>
+            <li onClick={() => navigate("/contactus")}>
               <button
                 style={{
+                  border: "none",
                   borderRadius: "8px",
                   background: "#327D81",
                   padding: "10px 16px",
                   color: "white",
+                  cursor: "pointer",
                 }}
               >
                 CONTACT US

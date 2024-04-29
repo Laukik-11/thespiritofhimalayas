@@ -6,8 +6,10 @@ import BgImage2 from "../Assets/BgImage2.jpg";
 import BgImage3 from "../Assets/BgImage3.jpg";
 import "swiper/css";
 import "swiper/css/bundle";
+import { Link, useNavigate  } from "react-router-dom";
 
 const Carousel = () => {
+  const navigate  = useNavigate ();
   return (
     <>
       <div className="slider hero">
@@ -18,7 +20,7 @@ const Carousel = () => {
             visiting four holy shrines in the Himalayas — Yamunotri, Gangotri,
             Kedarnath, and Badrinath.
           </h3>
-          <a href="#" className="btn" style={{ color: "white" }}>
+          <a className="btn" style={{ color: "white", cursor:"pointer" }} onClick={() => navigate("/contactus")}>
             Contact Us Now
           </a>
         </div>
@@ -47,8 +49,8 @@ const Carousel = () => {
                 className="background-image"
                 style={{
                   background: `linear-gradient(
-          rgba(0, 0, 0, 0.4), 
-          rgba(0, 0, 0, 0.4)
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
         ),url(${BgImage3})`,
                   backgroundPosition: "center",
                   backgroundSize: "cover",
@@ -63,8 +65,8 @@ const Carousel = () => {
                 className="background-image"
                 style={{
                   background: `linear-gradient(
-          rgba(0, 0, 0, 0.3), 
-          rgba(0, 0, 0, 0.3)
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
         ),url(${BgImage2})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",

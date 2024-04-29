@@ -20,8 +20,6 @@ const Footer = () => {
                                 <li><a class="hover-target" href=""><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="hover-target" href=""><i class="fa fa-linkedin"></i></a></li>
                                 <li><a class="hover-target" href=""><i class="fa fa-github"></i></a></li>
-                                <li><a class="hover-target" href=""><i class="fa fa-behance"></i></a></li>
-                                <li><a class="hover-target" href=""><i class="fa fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                     </div>
