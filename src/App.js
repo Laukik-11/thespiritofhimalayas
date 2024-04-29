@@ -4,6 +4,7 @@ import LandingPage from "./Pages/LandingPage";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import TrekDetail from "./Pages/TrekDetail";
+import ContactUs from "./Pages/ContactUs";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
           <Route path="/trek/:id" element={<TrekDetail />} />
+          <Route path="/contactus" element={<ContactUs />} />
           <Route path="*" element={<h1>not found</h1>} />
         </Routes>
         <Footer />

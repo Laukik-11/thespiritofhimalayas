@@ -86,7 +86,7 @@ const LandingPage = () => {
           </li>
         </ul>
       </section> */}
-      <Slider/>
+      {/* <Slider/> */}
 
       <section className="projects section" id="tours">
         <h2 className="section__title-1">
@@ -109,6 +109,8 @@ const LandingPage = () => {
           })}
         </div>
       </section>
+      <Slider/>
+
       <section className="projects section" id="treks">
         <h2 className="section__title-1">
           <span>TREKS WE OFFER</span>
@@ -131,7 +133,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className="destinations">
+      <section className="destinations" style={{ backgroundColor: "rgb(211, 211, 211)"}}>
         <h3 className="title">Some of our destinations:</h3>
         <p style={{maxWidth:"1000px"}}>
           Tired of the ocean? Are the plains too plain? Come along with us on

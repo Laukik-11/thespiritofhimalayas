@@ -1,16 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { treks } from "../Components/TrekList";
 import emailjs from "@emailjs/browser";
+import BgImage3 from "../Assets/BgImage3.jpg";
 
-const TrekDetail = () => {
-  const { id } = useParams();
-  const [trek, setTrek] = useState(null);
-  useEffect(() => {
-    const trek = treks.find((trek) => trek.id === parseInt(id));
-    setTrek(trek);
-  }, [id]);
-
+const ContactUs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -49,34 +41,21 @@ const TrekDetail = () => {
       });
   };
 
-  if (!trek) {
-    return <div>Loading...</div>;
-  }
   return (
-    <main class="app">
-      <div class="app__sections_left">
-        <div className="projects__image">
-          <img
-            src={trek.image}
-            alt="Image"
-            style={{ maxHeight: "500px", objectFit: "contain", width: "100%" }}
-          />
-        </div>
-        <div className="app__heading__container">
-        <i class="fa fa-map-marker" style={{ fontSize: {}}}></i> 
-        <h1 class="app__title">{trek.trekname}</h1>
-        </div>
-        {/* <p class="app__text">{trek.description}</p> */}
-        <ul className="treklist-ul">
-          {trek.description.map((trekpoint, index) => {
-            return <li key={index} className="treklist-li">
-              {trekpoint}
-            </li>;
-          })}
-        </ul>
-      </div>
+    <div
+      className="contactus_outer"
+//       style={{
+//         background: `linear-gradient(
+// rgba(0, 0, 0, 0.7), 
+// rgba(0, 0, 0, 0.7)
+// ),url(${BgImage3})`,
+//         backgroundPosition: "center",
+//         backgroundSize: "cover",
+//         backgroundRepeat: "no-repeat",
+//       }}
+    >
       <div class="app__sections_right" style={{ maxWidth: "500px" }}>
-        <div class="app__form__heading">Book Now!!!</div>
+        <div class="app__form__heading">Reach out to Us</div>
         <form onSubmit={handleSubmit} class="app__form" id="form">
           {/* <form class="app__form" id="form"> */}
           <div class="app__input__wrapper">
@@ -174,8 +153,8 @@ const TrekDetail = () => {
           <button type="submit">Send Email</button>
         </form> */}
       </div>
-    </main>
+    </div>
   );
 };
 
-export default TrekDetail;
+export default ContactUs;

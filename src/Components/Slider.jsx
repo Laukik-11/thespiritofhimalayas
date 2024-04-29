@@ -15,9 +15,10 @@ const Slider = () => {
       <div
         style={{
           width: "100%",
-          padding: "4% 2%",
+          padding: "4% 8%",
           //   marginTop: "40px",
-          background: "#F9F8F3",
+          // background: "#F9F8F3",
+          backgroundColor: "rgb(211, 211, 211)",
         }}
       >
         <Swiper
