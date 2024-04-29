@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import BgImage1 from "../Assets/BgImage1.jpg";
 import BgImage2 from "../Assets/BgImage2.jpg";
 import BgImage3 from "../Assets/BgImage3.jpg";
+import BgImage4 from "../Assets/Sunderdunga2.jpg";
 import "swiper/css";
 import "swiper/css/bundle";
 import "swiper/css/thumbs";
@@ -62,7 +63,7 @@ const Slider = () => {
             <img src={BgImage3} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={BgImage1} />
+            <img src={BgImage4} />
           </SwiperSlide>
           <SwiperSlide>
             <img src={BgImage2} />
