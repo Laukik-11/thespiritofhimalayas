@@ -73,17 +73,17 @@ const Header = () => {
           <ul className={`navMenu ${isActive ? "active" : ""}`}>
             <li onClick={removeActive}>
               <a href="#home" className={"navLink"}>
-                Home
+                home
               </a>
             </li>
             <li onClick={removeActive}>
               <a href="#home" className={"navLink"}>
-                Catalog
+                tours
               </a>
             </li>
             <li onClick={removeActive}>
               <a href="#home" className={"navLink"}>
-                All products
+                TREKS
               </a>
             </li>
             <li onClick={removeActive}>

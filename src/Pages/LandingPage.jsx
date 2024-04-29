@@ -88,7 +88,7 @@ const LandingPage = () => {
       </section> */}
       <Slider/>
 
-      <section className="projects section" id="projects">
+      <section className="projects section" id="tours">
         <h2 className="section__title-1">
           <span>TRAVEL WITH US</span>
         </h2>
@@ -109,7 +109,7 @@ const LandingPage = () => {
           })}
         </div>
       </section>
-      <section className="projects section" id="projects">
+      <section className="projects section" id="treks">
         <h2 className="section__title-1">
           <span>TREKS WE OFFER</span>
         </h2>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import BgImage1 from "../Assets/BgImage1.jpg";
 import BgImage2 from "../Assets/BgImage2.jpg";
@@ -23,11 +23,16 @@ const Carousel = () => {
           </a>
         </div>
         <Swiper
-          modules={[Autoplay, Pagination]}
+          modules={[Autoplay, Pagination, Navigation]}
           autoplay={{
             delay: 4000,
             disableOnInteraction: false,
           }}
+          style={{
+            "--swiper-navigation-color": "white",
+            "--swiper-navigation-size": "18px",
+          }}
+          navigation={true}
           pagination={{
             el: ".my-custom-pagination-div",
             clickable: true,
@@ -58,8 +63,8 @@ const Carousel = () => {
                 className="background-image"
                 style={{
                   background: `linear-gradient(
-          rgba(0, 0, 0, 0.4), 
-          rgba(0, 0, 0, 0.4)
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
         ),url(${BgImage2})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
