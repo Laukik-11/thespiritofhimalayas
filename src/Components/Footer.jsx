@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../Assets/Logo.jpg";
+import Logo from "../Assets/Logo_light.svg";
 import "./Footer.css"
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
             {/* <div className="row"> */}
                 {/* <div className="col-lg-6 offset-lg-3"> */}
                     <div class="contact-content text-center">
-                        <a href="#"><img style={{ width : "120px"}} src={Logo} alt="logo"/></a>
+                        <a href="#"><img style={{ height:"100px"}} src={Logo} alt="logo"/></a>
                         <p style={{ padding: "0px 15%"}}>Our team members are always dedicated to assist you with your queries about India destination and packages. We take care of your tour with best quality of services and customization of travel packages.</p>
                         <div class="hr"></div>
                         <h6>A-10 Rajpur Rd, Dehradun</h6>

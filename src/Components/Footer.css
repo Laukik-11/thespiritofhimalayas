@@ -60,10 +60,10 @@ img {
   border: 1px solid #8b9199;
   background-color: rgb(224, 222, 222);
   border-radius: 50%;
-  color: #555555;
+  color: #327d81;
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   margin: 0 10px;
   font-size: 22px;
   padding-top: 5px;
@@ -82,7 +82,7 @@ img {
 
 .footer_section,
 footer {
-  background: #1a1e25;
+  background: #13294b;
   color: #868c96;
 }
 
