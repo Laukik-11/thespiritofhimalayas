@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const Card = ({ id,imageSrc, title, trekname, subtitle, description }) => {
+const Card = ({ name, id, imageSrc, title, trekname, subtitle, description }) => {
+
+  const tourORtrek = name;
+
   return (
-    <Link className="projects__card" to={`/trek/${id}`}>
+    <Link className="projects__card" to={`/${tourORtrek}/${id}`}>
       <div className="projects__image">
         <img src={imageSrc} alt="project" className="projects__img" />
       </div>

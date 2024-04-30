@@ -13,7 +13,9 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
-          <Route path="/trek/:id" element={<TrekDetail />} />
+          {/* <Route path="/trek/:id" element={<TrekDetail />} /> */}
+          {/* <Route path="/tour/:id" element={<TrekDetail />} /> */}
+          <Route path="/:tourortrek/:id" element={<TrekDetail />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="*" element={<h1>not found</h1>} />
         </Routes>
