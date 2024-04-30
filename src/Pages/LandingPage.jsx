@@ -97,6 +97,7 @@ const LandingPage = () => {
             return (
               <>
                 <TrekCard
+                  name="tour"
                   id={tour.id}
                   imageSrc={tour.image}
                   trekname={tour.trekname}
@@ -120,6 +121,7 @@ const LandingPage = () => {
             return (
               <>
                 <TrekCard
+                  name="trek"
                   id={trek.id}
                   imageSrc={trek.image}
                   trekname={trek.trekname}

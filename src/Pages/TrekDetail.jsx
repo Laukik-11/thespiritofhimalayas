@@ -1,15 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { treks } from "../Components/TrekList";
+import { treks, Tours } from "../Components/TrekList";
 import emailjs from "@emailjs/browser";
 
 const TrekDetail = () => {
-  const { id } = useParams();
+  const { tourortrek, id } = useParams();
+  // console.log("tour", tourortrek, id);
   const [trek, setTrek] = useState(null);
   useEffect(() => {
-    const trek = treks.find((trek) => trek.id === parseInt(id));
-    setTrek(trek);
-  }, [id]);
+    if(tourortrek === 'tour')
+    {
+      const tour = Tours.find((trek) => trek.id === parseInt(id));
+      setTrek(tour);
+    }
+    else if(tourortrek === 'trek')
+    {
+      const trek = treks.find((trek) => trek.id === parseInt(id));
+      setTrek(trek);
+    }
+  }, [id,tourortrek]);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
