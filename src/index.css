@@ -74,7 +74,7 @@ section h3.title {
 
 section p {
   max-width: 775;
-  line-height: 2;
+  /* line-height: 2; */
   padding: 0 20px;
   margin-bottom: 30px;
   text-align: center;
@@ -352,7 +352,7 @@ header nav li {
 }
 
 .projects__card {
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0.75rem;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
@@ -407,7 +407,7 @@ header nav li {
   text-align: left;
   padding: 0px;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -452,14 +452,14 @@ header nav li {
 
 @media screen and (min-width: 576px) {
   .projects__container {
-    grid-template-columns: 400px;
+    grid-template-columns: 380px;
     justify-content: center;
   }
 }
 
 @media screen and (min-width: 768px) {
   .projects__container {
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(2, 360px);
   }
 }
 
@@ -476,7 +476,7 @@ header nav li {
     height: 48px;
   }
   .projects__container {
-    grid-template-columns: repeat(3, 402px);
+    grid-template-columns: repeat(3, 365px);
     padding-block: 3rem 1rem;
   }
   .projects__image {
