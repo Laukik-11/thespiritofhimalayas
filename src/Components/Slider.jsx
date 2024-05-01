@@ -9,13 +9,14 @@ import "swiper/css";
 import "swiper/css/bundle";
 import "swiper/css/thumbs";
 
-const Slider = () => {
+const Slider = ({ imagescarousal }) => {
+  console.log(imagescarousal);
   return (
     <>
       <div
         style={{
           width: "100%",
-          padding: "4% 8%",
+          padding: "4% 6%",
           //   marginTop: "40px",
           // background: "#F9F8F3",
           backgroundColor: "rgb(211, 211, 211)",
@@ -37,15 +38,15 @@ const Slider = () => {
               spaceBetween: 10,
             },
             "@0.75": {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 20,
             },
             "@1.00": {
-              slidesPerView: 4,
+              slidesPerView: 2,
               spaceBetween: 40,
             },
             "@1.50": {
-              slidesPerView: 5,
+              slidesPerView: 4,
               spaceBetween: 50,
             },
           }}
@@ -54,7 +55,14 @@ const Slider = () => {
           loop={true}
           className="mySwiper"
         >
-          <SwiperSlide>
+          {imagescarousal.map((singleImage) => {
+            return (
+              <SwiperSlide>
+                <img src={singleImage} />
+              </SwiperSlide>
+            );
+          })}
+          {/* <SwiperSlide>
             <img src={BgImage1} />
           </SwiperSlide>
           <SwiperSlide>
@@ -71,7 +79,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img src={BgImage3} />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </>

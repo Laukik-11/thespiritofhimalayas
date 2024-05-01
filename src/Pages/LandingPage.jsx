@@ -88,7 +88,7 @@ const LandingPage = () => {
       </section> */}
       {/* <Slider/> */}
 
-      <section className="projects section" id="tours">
+      <section className="projects section" id="tours" style={{ padding: "70px 80px"}}>
         <h2 className="section__title-1">
           <span>TRAVEL WITH US</span>
         </h2>
@@ -110,7 +110,7 @@ const LandingPage = () => {
           })}
         </div>
       </section>
-      <Slider/>
+      {/* <Slider/> */}
 
       <section className="projects section" id="treks">
         <h2 className="section__title-1">
