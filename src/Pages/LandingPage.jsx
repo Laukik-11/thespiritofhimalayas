@@ -1,7 +1,8 @@
 import React from "react";
-import  { Tours, treks } from "../Components/TrekList";
+import { Tours, treks } from "../Components/TrekList";
 import TrekCard from "../Components/TrekCard";
 import BgImage1 from "../Assets/BgImage1.jpg";
+import BgImage3 from "../Assets/BgImage3.jpg";
 import BgImage4 from "../Assets/BgImage4.jpg";
 import BgImage5 from "../Assets/BgImage5.jpg";
 import Carousel from "../Components/Carousel";
@@ -88,10 +89,14 @@ const LandingPage = () => {
       </section> */}
       {/* <Slider/> */}
 
-      <section className="projects section" id="tours" style={{ padding: "70px 80px"}}>
-        <h2 className="section__title-1">
-          <span>TRAVEL WITH US</span>
-        </h2>
+      <section
+        className="projects section"
+        id="tours"
+        style={{ paddingTop: "80px", paddingBottom: "60px" }}
+      >
+        <div class="one">
+          <h1>Tours we offer</h1>
+        </div>
         <div className="projects__container container grid">
           {Tours.map((tour, key) => {
             return (
@@ -113,9 +118,9 @@ const LandingPage = () => {
       {/* <Slider/> */}
 
       <section className="projects section" id="treks">
-        <h2 className="section__title-1">
-          <span>TREKS WE OFFER</span>
-        </h2>
+        <div class="one">
+          <h1>TREKS WE OFFER</h1>
+        </div>
         <div className="projects__container container grid">
           {treks.map((trek) => {
             return (
@@ -135,9 +140,12 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className="destinations" style={{ backgroundColor: "rgb(211, 211, 211)"}}>
+      <section
+        className="destinations"
+        style={{ backgroundColor: "rgb(211, 211, 211)" }}
+      >
         <h3 className="title">Some of our destinations:</h3>
-        <p style={{maxWidth:"1000px"}}>
+        <p style={{ maxWidth: "1000px" }}>
           Tired of the ocean? Are the plains too plain? Come along with us on
           one of our mountain adventures. Here are some pictures from people who
           have had elevated experiences with us.
@@ -148,6 +156,12 @@ const LandingPage = () => {
             className="small"
             style={{
               backgroundImage: `url(${BgImage1})`,
+            }}
+          ></li>
+          <li
+            className="small"
+            style={{
+              backgroundImage: `url(${BgImage3})`,
             }}
           ></li>
           <li

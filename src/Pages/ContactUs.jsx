@@ -55,7 +55,9 @@ const ContactUs = () => {
 //       }}
     >
       <div class="app__sections_right" style={{ maxWidth: "500px" }}>
-        <div class="app__form__heading">Reach out to Us</div>
+      <div class="one">
+          <h1>Reach out to Us</h1>
+        </div>
         <form onSubmit={handleSubmit} class="app__form" id="form">
           {/* <form class="app__form" id="form"> */}
           <div class="app__input__wrapper">
