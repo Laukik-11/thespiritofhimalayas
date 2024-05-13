@@ -25,6 +25,7 @@ export const Tours = [
       " If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us .",
       "We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences.",
     ],
+    imageCarousal: [Pindari1, Pindari2],
   },
   {
     id: 2,
@@ -33,6 +34,7 @@ export const Tours = [
     description: [
       "Chardham Yatra is a spiritual pilgrimage journey that includes visiting four holy shrines in the Himalayas — Yamunotri, Gangotri, Kedarnath, and Badrinath. The journey is considered highly sacred by Hindus and is believed to provide spiritual upliftment and liberation from the cycle of birth and death. If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us .We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences",
     ],
+    imageCarousal: [Pindari1, Pindari2],
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ export const Tours = [
       "If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us. ",
       "We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences",
     ],
+    imageCarousal: [Pindari1, Pindari2],
   },
 ];
 
