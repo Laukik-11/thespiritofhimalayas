@@ -1,18 +1,33 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import Dodham from "../Assets/Dodham.jpg";
 import Chardham from "../Assets/Chardham.jpg";
-import Badrinath from "../Assets/Badrinath.jpg";
+import Trek1 from "../Assets/Trek1.jpg";
+import Trek2 from "../Assets/Trek2.jpg";
+import Trek3 from "../Assets/Trek3.jpg";
+import Trek4 from "../Assets/Trek4.jpg";
+import Badrinath1 from "../Assets/badrinath1.jpg";
+import Yamunotri1 from "../Assets/Image4.jpg";
+import Gangotri1 from "../Assets/Image2.jpg";
 // import Sunderdunga from "../Assets/Sunderdunga.jpg";
 import Kedarnath from "../Assets/kedarnath1.jpg";
+import Kedarnath1 from "../Assets/kedarnath2.jpg";
+import Kedarnath2 from "../Assets/kedarnath3.jpg";
 import Tungnath1 from "../Assets/tungnath1.jpeg";
+import Tungnath2 from "../Assets/Tungnath2.jpg";
 import Sunderdunga1 from "../Assets/sundardunga1.jpeg";
 import Kafini1 from "../Assets/kafini1.jpeg";
+import Kafini2 from "../Assets/Kaafini2.jpg";
 import Katarmal1 from "../Assets/katarmal1.jpeg";
+import Katarmal2 from "../Assets/Katarmal2.jpg";
 import Kausani1 from "../Assets/kausani1.jpeg";
+import Kausani2 from "../Assets/Kausani2.jpg";
+import Kausani3 from "../Assets/Kausani3.jpg";
+import Kausani4 from "../Assets/Kausani4.jpg";
+import Kausani5 from "../Assets/Kausani5.jpg";
+import Kausani6 from "../Assets/Kausani6.jpg";
 import Dolashram1 from "../Assets/dolashram1.jpeg";
 import Pindari1 from "../Assets/pindari1.jpeg";
 import Pindari2 from "../Assets/pindari2.jpeg";
+import Pindari3 from "../Assets/Pindari3.jpg";
 
 export const Tours = [
   {
@@ -25,7 +40,7 @@ export const Tours = [
       " If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us .",
       "We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences.",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [Badrinath1, Kedarnath1, Trek2, Trek1],
   },
   {
     id: 2,
@@ -34,7 +49,7 @@ export const Tours = [
     description: [
       "Chardham Yatra is a spiritual pilgrimage journey that includes visiting four holy shrines in the Himalayas — Yamunotri, Gangotri, Kedarnath, and Badrinath. The journey is considered highly sacred by Hindus and is believed to provide spiritual upliftment and liberation from the cycle of birth and death. If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us .We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [Badrinath1, Kedarnath1, Gangotri1, Yamunotri1],
   },
   {
     id: 3,
@@ -45,7 +60,7 @@ export const Tours = [
       "If you are planning to undertake this journey, it is important to prepare yourself well in advance to ensure a smooth and successful trip. So to have a tension free trip pan your journey with us. ",
       "We will provide you all the necessary services like food, transportation , accommodation and most important a plan of your journey in advance and all necessary arrangements to avoid any inconveniences",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [Kedarnath2, Kedarnath1, Trek3, Trek4],
   },
 ];
 
@@ -66,7 +81,7 @@ export const treks = [
       "The trail to reach the glacier crosses the villages of Saung, Loharkhet, crosses over the Dhakuri Pass, continues onto Khati village (the last inhabited village on the trail), Dwali, Phurkia and finally Zero Point, Pindar, the end of the trail. Though most of the trail is along the banks of the Pindari River, the river is mostly hidden until after Khati.",
       "The Pindari Glacier trail provides for a 90 km (56 mi) round-trip trek that most people find comfortable to complete in 6 days. The Pindari Glacier is also famous for other adventure sports like Ice climbing and Mountain biking.",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [Pindari1, Pindari2, Pindari3],
   },
   {
     id: 2,
@@ -82,7 +97,7 @@ export const treks = [
       "Best Season:  Pre Monsoon Season:— May first week to June end and post monsoon Season:- September 2nd week to Nov first week.",
       "The Kafni Glacier is located in the upper reaches of the Kumaon Himalayas, to the southeast of Nanda Devi. The glacier gives rise to the Kafni River, which is a tributary of the Pindar River. The Pindar River is a tributary to Alaknanda River, which eventually is one of the two headstreams of the Ganges. This is relatively small glacier but a popular trekking destination along with Pindari Glacier",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [Kafini2],
   },
   {
     id: 3,
@@ -117,7 +132,7 @@ export const treks = [
       "The quaint village of Katarmal is only 16 km away from the popular hill station of Almora. Let’s find out more about the mysteries that surround this ancient temple.",
       "At a distance of 30 km from Dwarahat and 20 km from Almora, Katarmal Sun Temple is an ancient Hindu temple situated at Katarmal village in Almora district of Uttarakhand.Katarmal Temple is dedicated to Lord Burhadita or Vriddhaditya (the old Sun God) and is one of the famous historical places of Kumaon hills in Uttarakhand. The present image of Surya in the temple dates back to 12th century. Built in the 9th century by Katarmalla, a Katyuri king, this temple is perched at an altitude of 2116 m.The Sun Temple is noted for its magnificent architecture and is a monument of historical importance.  The idols of Shiva-Parvati and Lakshmi-Narayana can also be spotted in this temple. The building faces the east in a way such that the first rays of the sun fall on the Shiva Lingam. Stone-built walls, intricate figures, beautiful pillar carvings and exquisitely cut out wooden doors are among the distinctive features of this temple.",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [Katarmal2],
   },
   {
     id: 5,
@@ -127,7 +142,7 @@ export const treks = [
       "Shri Kalyanika Himalaya Devasthanam, popularly known as the Dol Ashram is a peaceful ashram in the quaint village of Kanara (Dol), located in the Almora district of Uttarakhand. Dol Ashram is surrounded by dense forests and rests calmly at its center.",
       "Dol Ashram is built for yoga and meditation purposes and the atmosphere of the ashram makes it an ideal location for practicing the elements of a spiritual life. At Dol Ashram, you can learn Vedic methodology which is an integral aspect for living a balanced and healthy life. Dol Ashram welcomes everyone who want to learn about spirituality, yoga, and meditation.",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [],
   },
   {
     id: 6,
@@ -138,14 +153,14 @@ export const treks = [
       "Starting Point: Chopta ",
       "Famous For:	Temple, Panch Kedar (it’s a part of Third kedar ), Trekking, Bird Watching ",
       "Altitude :	12,073 feet ",
-      "Total Trekking :	3.5 Km Trek From Chopta ", 
+      "Total Trekking :	3.5 Km Trek From Chopta ",
       "Nearest Railway / Airport	Rishikesh: 230kms/ Jolly Grant Airport, 240 kms ",
       "Best time to visit Ukhimath: May, Jun, Jul, Aug, Sep, Oct, Nov, ",
       "Tungnath, serenely nestled on Chandranath Parvat, stands as the world’s highest Shiva temple and the tallest among the Panch Kedar temples in Uttarakhand.  Tungnath is the third temple in the Panch Kedar pilgrimage sequence, Temple is situated at an impressive altitude of 3,680 meters above sea level,  The temple is believed to be more than 1,000 years old, carrying a rich historical and cultural heritage",
       "The Tungnath Temple, standing tall with its magnificent architecture, has a history spanning over a thousand years. Dedicated to Lord Shiva, you’ll also find idols of Goddess Parvati and other gods nearby. Adi Shankaracharya discovered this sacred temple, and today, it is tended to by local Brahmins from Makku village. ",
       "During winters, the symbolic image of Lord Shiva is shifted to Mukunath, which is 19 km away. The trek to Tungnath takes you through rocky terrains, lush meadows, and rhododendron bushes, treating you to stunning views of nature. The sight of the grand Himalayas along the way uplifts the spirits of trekkers. Trek offers clear views of numerous named and unnamed peaks of the majestic Himalayan range.",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [Tungnath2],
   },
   {
     id: 7,
@@ -154,7 +169,8 @@ export const treks = [
     description: [
       "Kausani (Kumaoni: Kôsānī) is a hill station and Village situated in Bageshwar district in the state of Uttarakhand, India. It is famous for its scenic splendour and its spectacular 300 km-wide panoramic view of Himalayan peaks like Trisul, Nanda Devi and Panchchuli. Mahatma Gandhi called this place the 'Switzerland of India',[4][5] due to similarity in landscapes.",
       "Anashakti Ashram is a quiet and revered place where Mahatma Gandhi spent some days and wrote his commentary of Anashakti Yog.[21] The KMVN (Kumaon Mandal Vikas Nigam) resthouse in Kausani is an ideal place to stay and it provides panoramic views of the mountains.",
+      "",
     ],
-    imageCarousal: [Pindari1, Pindari2],
+    imageCarousal: [Kausani2, Kausani3, Kausani4, Kausani5, Kausani6],
   },
 ];

@@ -20,8 +20,16 @@ function App() {
           <Route path="*" element={<h1>not found</h1>} />
         </Routes>
         <Footer />
-        <a target="_blank" href="https://wa.me/7075065990" class="whatsapp-button"><i class="fa fa-whatsapp"></i></a>
-        <a target="_blank"   href="tel:7075065990" class="phone-button"><i class="fa fa-phone"></i></a>
+        <a
+          target="_blank"
+          href="https://wa.me/916396539672"
+          class="whatsapp-button"
+        >
+          <i class="fa fa-whatsapp"></i>
+        </a>
+        <a target="_blank" href="tel:916396539672" class="phone-button">
+          <i class="fa fa-phone"></i>
+        </a>
       </Router>
     </>
   );
