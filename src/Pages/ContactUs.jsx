@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import BgImage3 from "../Assets/BgImage3.jpg";
+// require("dotenv").config();
+// import 'dotenv/config'
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -12,10 +14,16 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // console.log("yo yo,", process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, process.env.REACT_APP_PUBLIC_KEY )
+
+    // const serviceId = process.env.REACT_APP_SERVICE_ID ;
+    // const templateId = process.env.REACT_APP_TEMPLATE_ID ;
+    // const publicKey = process.env.REACT_APP_PUBLIC_KEY ;
+
     // Your EmailJS service ID, template ID, and Public Key
-    const serviceId = "service_apxgerr";
-    const templateId = "template_a9humra";
-    const publicKey = "ddz7uIKAGK9Pgu3ef";
+    const serviceId = "service_czzou0h";
+    const templateId = "template_gztebvj";
+    const publicKey = "RloxIE8dzgtwH_CUf";
 
     // Create a new object that contains dynamic template params
     const templateParams = {
@@ -23,7 +31,7 @@ const ContactUs = () => {
       from_email: email,
       from_phone: phoneNumber,
       total_people: number,
-      to_name: "Laurel",
+      to_name: "TheSpiritOfHimalayas",
       message: message,
     };
 
@@ -34,6 +42,8 @@ const ContactUs = () => {
         console.log("Email sent successfully!", response);
         setName("");
         setEmail("");
+        setPhoneNumber("");
+        setNumber("");
         setMessage("");
       })
       .catch((error) => {
