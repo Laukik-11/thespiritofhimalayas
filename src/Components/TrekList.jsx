@@ -169,7 +169,6 @@ export const treks = [
     description: [
       "Kausani (Kumaoni: Kôsānī) is a hill station and Village situated in Bageshwar district in the state of Uttarakhand, India. It is famous for its scenic splendour and its spectacular 300 km-wide panoramic view of Himalayan peaks like Trisul, Nanda Devi and Panchchuli. Mahatma Gandhi called this place the 'Switzerland of India',[4][5] due to similarity in landscapes.",
       "Anashakti Ashram is a quiet and revered place where Mahatma Gandhi spent some days and wrote his commentary of Anashakti Yog.[21] The KMVN (Kumaon Mandal Vikas Nigam) resthouse in Kausani is an ideal place to stay and it provides panoramic views of the mountains.",
-      "",
     ],
     imageCarousal: [Kausani2, Kausani3, Kausani4, Kausani5, Kausani6],
   },
